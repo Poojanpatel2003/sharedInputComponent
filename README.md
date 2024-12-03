@@ -4,21 +4,21 @@ The Shared Input Component is a React-based application designed to manage multi
 <ul>
   <li>Dynamic Form Management:</li>
 
-<ul>Add multiple forms dynamically with unique IDs.</ul>
-<ul>Remove individual forms with real-time updates.</ul>
-Form Persistence:
+* Add multiple forms dynamically with unique IDs.
+* Remove individual forms with real-time updates.
+<li>Form Persistence:</li>
 
-Saves each form's data to localStorage for persistence across page reloads.
-Form Validation:
+* Saves each form's data to localStorage for persistence across page reloads.
+<li>Form Validation:</li>
 
-Ensures all fields are filled before submission with error notifications.
-Notification System:
+* Ensures all fields are filled before submission with error notifications.
+<li>Notification System:</li>
 
-Real-time success, error, info, and warning notifications using React Toastify.
-Field Types:
+* Real-time success, error, info, and warning notifications using React Toastify.
+<li>Field Types:</li>
 
-Text inputs, textarea, checkboxes (multi-selection), and radio buttons.
-Responsive UI:
+* Text inputs, textarea, checkboxes (multi-selection), and radio buttons.
+<li>Responsive UI:</li>
 
-Styled with CSS for a clean and user-friendly interface.
+* Styled with CSS for a clean and user-friendly interface.
 </ul>
