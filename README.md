@@ -22,3 +22,37 @@ The Shared Input Component is a React-based application designed to manage multi
 
 * Styled with CSS for a clean and user-friendly interface.
 </ul>
+# Website Looks Like...
+![Screenshot 2024-12-03 103753](https://github.com/user-attachments/assets/ab792b4b-50e1-4a3d-b88e-027138aa79ea)
+
+# Implementation 
+1. Step 1: Clone the Repository
+  * git clone https://github.com/your-username/shared-input-component.git
+  * cd shared-input-component
+2. Step 2: Install Dependencies
+* Install the required packages using npm:
+npm or bun install
+3. Step 3: Run the Application
+* Start the development server: bun or npm run dev
+4. Step 4: Adding React Toastify
+ * If React Toastify is not already installed, install it using:npm or bun install react-toastify
+
+
+# How It Works
+1. Form Initialization:
+
+* When the app loads, it retrieves previously saved forms from localStorage and initializes them.
+* If no forms are found, it creates an initial blank form.
+2. Form Actions:
+
+* Add Form: Generates a new form with unique ID and empty fields.
+R* emove Form: Deletes a specific form from the UI and localStorage.
+* Submit Form: Validates and saves the form data to localStorage.
+3. Notifications:
+
+* Displays a success message when data is successfully submitted.
+* Warns the user if they attempt to submit with empty fields.
+* Confirms when a form is added or removed.
+4. Data Persistence:
+
+* Uses localStorage to save each form's data under unique keys (formData-ID).
