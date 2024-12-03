@@ -23,7 +23,8 @@ The Shared Input Component is a React-based application designed to manage multi
 * Styled with CSS for a clean and user-friendly interface.
 </ul>
 # Website Looks Like...
-![Screenshot 2024-12-03 103753](https://github.com/user-attachments/assets/ab792b4b-50e1-4a3d-b88e-027138aa79ea)
+![Screenshot 2024-12-03 103753](https://github.com/user-attachments/assets/a70b797c-391c-47bd-8de8-b6239296ecc5)
+
 
 # Implementation 
 1. Step 1: Clone the Repository
